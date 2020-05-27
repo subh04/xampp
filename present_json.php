@@ -12,6 +12,8 @@ $rowOfData=$result->fetch_assoc();
 
 //printing the data to the web browser
 
-echo $rowOfData["id"];
-echo $rowOfData["name"];
-echo $rowOfData["price"];
+//echo $rowOfData["id"];
+//echo $rowOfData["name"];
+//echo $rowOfData["price"];
+
+echo json_encode($rowOfData);
